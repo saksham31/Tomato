@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { FiHeart } from "react-icons/fi";
 import { assets } from "../../assets/assets";
 
 const Footer = () => {
@@ -42,7 +43,7 @@ const Footer = () => {
       </div>
       <hr />
 
-      <p className="footer-copyright">Made with love by Saksham Bisen.</p>
+      <p className="footer-copyright">Made with love by Saksham Bisen <FiHeart /></p>
     </div>
   );
 };
